@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R1
+L Device:R R3
 U 1 1 5BF43F84
 P 3700 2750
-F 0 "R1" H 3770 2796 50  0000 L CNN
+F 0 "R3" H 3770 2796 50  0000 L CNN
 F 1 "1K0" H 3770 2705 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3630 2750 50  0001 C CNN
 F 3 "~" H 3700 2750 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "~" H 3700 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Device:R R5
 U 1 1 5BF4407B
 P 5400 2750
-F 0 "R3" H 5470 2796 50  0000 L CNN
+F 0 "R5" H 5470 2796 50  0000 L CNN
 F 1 "10K" H 5470 2705 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5330 2750 50  0001 C CNN
 F 3 "~" H 5400 2750 50  0001 C CNN
@@ -37,23 +37,23 @@ F 3 "~" H 5400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV1
+L Device:R_POT R1
 U 1 1 5BF4410D
 P 4400 1950
-F 0 "RV1" H 4330 1996 50  0000 R CNN
+F 0 "R1" H 4330 1996 50  0000 R CNN
 F 1 "250K" H 4330 1905 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical" H 4400 1950 50  0001 C CNN
+F 2 "Custom_parts:Potentiometer_Piher_PT-6-V_Vertical" H 4400 1950 50  0001 C CNN
 F 3 "~" H 4400 1950 50  0001 C CNN
 	1    4400 1950
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT RV2
+L Device:R_POT R2
 U 1 1 5BF44158
 P 5400 1950
-F 0 "RV2" H 5330 1996 50  0000 R CNN
+F 0 "R2" H 5330 1996 50  0000 R CNN
 F 1 "250K" H 5330 1905 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical" H 5400 1950 50  0001 C CNN
+F 2 "Custom_parts:Potentiometer_Piher_PT-6-V_Vertical" H 5400 1950 50  0001 C CNN
 F 3 "~" H 5400 1950 50  0001 C CNN
 	1    5400 1950
 	1    0    0    -1  
@@ -125,10 +125,10 @@ F 3 "~" H 5750 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R4
 U 1 1 5BF44448
 P 4400 2750
-F 0 "R2" H 4470 2796 50  0000 L CNN
+F 0 "R4" H 4470 2796 50  0000 L CNN
 F 1 "10K" H 4470 2705 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4330 2750 50  0001 C CNN
 F 3 "~" H 4400 2750 50  0001 C CNN
@@ -136,10 +136,10 @@ F 3 "~" H 4400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Device:R R6
 U 1 1 5BF444A9
 P 6100 2750
-F 0 "R4" H 6170 2796 50  0000 L CNN
+F 0 "R6" H 6170 2796 50  0000 L CNN
 F 1 "1K0" H 6170 2705 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6030 2750 50  0001 C CNN
 F 3 "~" H 6100 2750 50  0001 C CNN
